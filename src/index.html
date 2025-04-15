@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu aniversário</title>
+    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__profile" src="./images/profile.jpg" alt="">
+            <p class="hero__text">
+                Meu aniversário começa em <Span id="contador"></Span>
+            </p>
+
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Rio de Janeiro - RJ
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        21 de dezembro ás 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirme sua presença
+                </a>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="event">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    🥳 Meu Aniversário
+                </h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ea quaerat eligendi quas sapiente
+                    tenetur nulla. Hic reprehenderit alias rem, rerum perferendis, voluptatem odio deleniti nemo cum
+                    laborum accusamus in?
+                </p>
+            </div>
+            <img class="event__image" src="./images/aniversario_logo.jpg" alt="">
+        </div>
+        <div class="container container--image-left" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    🎁 Lista de Presentes
+                </h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex beatae at quos eius ratione atque porro
+                    sapiente dolorum dolores repellat rerum non mollitia blanditiis qui quaerat incidunt, delectus
+                    perspiciatis sint.
+                </p>
+            </div>
+            <img class="event__image" src="./images/grupo-de-caixa-de-presente.jpg" alt="">
+        </div>
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    📸 Galeria de Fotos & Recados
+                </h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex beatae at quos eius ratione atque porro
+                    sapiente dolorum dolores repellat rerum non mollitia blanditiis qui quaerat incidunt, delectus
+                    perspiciatis sint.
+                </p>
+            </div>
+            <img class="event__image" src="./images/pessoas-fotografias.jpg" alt="">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>

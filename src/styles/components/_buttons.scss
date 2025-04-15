@@ -1,0 +1,28 @@
+.button {
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    border: transparent solid 5px;
+
+    &--primary {
+        color: #fff;
+        background-color: #00D9F5;
+    }
+
+    &:hover {
+        border: #fff solid 5px;
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+        width: 100%;
+    }
+
+    @media (max-width: 1024px) {
+        display: flex;
+        align-items: center;
+    }
+}
